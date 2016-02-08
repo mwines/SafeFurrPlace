@@ -53,16 +53,17 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="index.html">Home</a>
+                        <%= link_to "Home", root_path %>
                     </li>
                     <li>
-                        <a href="about.html">About</a>
+                        <%= link_to "About", static_about_path %>
                     </li>
-                    <li>
+                    <%# <li>
+                        To come....
                         <a href="blog.html">Blog</a>
-                    </li>
+                    </li> %>
                     <li>
-                        <a href="contact.html">Contact</a>
+                        <%= link_to "Contact", static_contact_path %>
                     </li>
                 </ul>
             </div>
