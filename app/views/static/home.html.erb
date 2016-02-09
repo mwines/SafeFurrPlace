@@ -1,11 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-
-    
-
-    <%= render 'layouts/header' %>
+<%= render 'layouts/header' %>
 
 <body>
 
@@ -93,10 +89,10 @@
     <%= render 'layouts/footer' %>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <%= javascript_include_tag "jquery" %>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
+    <%= javascript_include_tag "bootstrap.min" %>
 
     <!-- Script to Activate the Carousel -->
     <script>
